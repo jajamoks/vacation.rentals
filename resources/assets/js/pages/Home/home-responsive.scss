@@ -1,0 +1,150 @@
+@media only screen and (min-width:768px) and (max-width:991px){
+	.container {
+	    max-width: 100%;
+	}
+	section.hg_section--relative .page-container-responsive.page-container-no-padding.pt-0.pb-80 .grid-ibx__item {
+	    margin: 1px;
+	}
+	section.hg_section--relative h4.grid-ibx__title.kl-font-alt.fs-m {
+	    font-size: 18px;
+	}
+	.tag-swipe.swiper-container .carousel-inner img {
+	    height: auto !important;
+	}
+	.tag-swipe.swiper-container.hsize-400 .carousel-caption > h3 {
+	    font-size: 29px !important;
+	}
+	.tag-swipe.swiper-container.hsize-400 .carousel-caption > p {
+	    font-size: 17px !important;
+	}
+	.how_it_works .how-it-item {
+	    min-height: 328px !important;
+	}
+	.action_box {
+	    padding: 24px 0 40px;
+	}
+	.shift-with-hiw.js-hero .hero__content {
+	    height: 670px;
+	    padding-bottom: 80px !important;
+	}
+	.shift-with-hiw.js-hero .hero {
+	    height: 620px;
+	}
+	.tag-swipe.swiper-container.hsize-400 {
+	    height: auto !important;
+	}
+}
+
+@media only screen and (max-width:991px){
+	form#searchbar-form input#location {
+	    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+	    border: none !important;
+	    border-radius: 40px !important;
+	    padding: 15px 23px !important;
+	    height: 65px;
+	    font-size: 18px;
+	}
+	form#searchbar-form button.btn.btn-primary {
+	    background: #23537a;
+	    border-color: #23537a;
+	    border-radius: 30px !important;
+	    width: 114px;
+	    font-size: 18px;
+	}
+	.latest_posts.default-style.kl-style-2 .m_title {
+	    position: relative;
+	    margin: 0 0 20px;
+	    font-size: 17px;
+	}
+	.hero__content.page-container.page-container-full .rjbanercont h1 {
+	    font-size: 26px;
+	}
+}
+
+@media only screen and (max-width:767px){
+
+form#searchbar-form input#location {
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+    border: none !important;
+    border-radius: 40px !important;
+    padding: 15px 16px !important;
+    height: 55px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}	
+.input-group-append {
+    position: relative !important;
+    width: 100%;
+    left: 0;
+}
+form#searchbar-form button.btn.btn-primary {
+    background: #23537a;
+    border-color: #23537a;
+    border-radius: 30px !important;
+    width: 100%;
+    font-size: 18px;
+    height: 48px;
+    margin-top: 4px !important;
+}
+.how_it_works .section-intro h2 {
+    font-size: 30px !important;
+    margin-bottom: 25px !important;
+}
+.how_it_works .how-it-item {
+    min-height: auto !important;
+    padding: 30px 20px;
+}
+section.how_it_works {
+    padding-top: 35px !important;
+    padding-bottom: 45px !important;
+}
+section.hg_section--relative h2.tbk__title.kl-font-alt.fs-xs-xl.fs-l.fw-bold.white.shadow-text {
+    font-size: 28px !important;
+    font-weight: 600 !important;
+}
+main#site-content section.hg_section--relative h2.tbk__title.kl-font-alt.fs-xs-xl.fs-l.fw-bold.white.shadow-text span.tcolor-ext{
+    font-size: 19px !important;
+}
+section#discover-recommendations {
+    background: #fbfbfb;
+    padding-top: 30px !important;
+    padding-bottom: 60px !important;
+}
+main#site-content .section-intro h2 {
+    color: #23537a !important;
+    font-size: 28px !important;
+    margin-bottom: 20px !important;
+}
+.section-intro.text-center.row-space-6.row-space-top-8 {
+    margin-top: 5px;
+}
+.page-container-responsive.page-container-no-padding.pt-0.pb-80 .grid-ibx__item {
+    margin:10px 0 !important;
+}
+section.hg_section--relative .page-container-responsive {
+    padding-bottom: 35px !important;
+}
+.action_box.style1.mb-80 a.btn-lined.btn-lg.ac-btn.w-100.text-center {
+    padding: 11px 15px !important;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+}
+.action_box.style1.mb-80 {
+    margin-bottom: 40px !important;
+}
+div#footer {
+    text-align: center;
+}
+.latest_posts.default-style.kl-style-2 .m_title {
+    font-size: 13px;
+}
+section#discover-recommendations .tag-swipe.swiper-container.hsize-400, section#discover-recommendations .carousel.slide, section#discover-recommendations .carousel-inner, section#discover-recommendations .carousel-item.active, section#discover-recommendations .carousel-item > img {
+    height: auto;
+}
+.latest_posts.default-style.kl-style-2 .carousel-caption.d-none.d-md-block {
+    display: block !important;
+}
+
+
+}

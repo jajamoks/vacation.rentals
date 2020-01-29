@@ -1,0 +1,40 @@
+.edit-profile_ .react-tel-input input[type=tel], .react-tel-input input[type=text] {
+    background: 0;
+    background-color: #fff;
+    border: 0;
+    border-bottom: 2px solid #e8ebed;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-transition: none;
+    color: #999;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    padding: 0px 12px 0px 0;
+}
+
+.edit-profile_ .phone-item {
+    margin-bottom: 20px;
+}
+
+.edit-profile_ .row {
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+}
+
+.edit-profile_ .react-tel-input .flag-dropdown {
+    display: none;
+}
+
+.panel.top-home {
+    padding: 0px;
+}
+
+.language_select{
+    margin-top: 9px;
+    float: left;
+}
+.react-tel-input input{
+    color: black !important;
+}

@@ -1,0 +1,52 @@
+@media (min-width: 1200px){
+	.navik-menu>ul>li>a {
+	    font-weight: 600 !important;
+	    color: #23537a;
+	    font-size: 14px !important;
+	    letter-spacing: 0.2px;
+	}
+	.navik-menu ul li.current-menu>a,
+	.navik-menu ul li:hover>a,
+	.header-dark .navik-menu ul li.current-menu>a,
+	.header-dark .navik-menu ul li:hover>a {
+    	background-color: #23537a !important;
+	}
+
+	.navik-menu.submenu-top-border li > ul {
+    border-top: 3px solid #23537a !important;
+    background: #23537a !important;
+}
+	.navik-menu ul ul li:hover>a {
+	    color: #fff !important;
+	}
+	.navik-menu ul ul li>a .text-black {
+    	color: #fff;
+	    margin-right: 7px;
+	}
+	.navik-menu ul ul li>a small {
+    	color: #4da7ff;
+	}
+	.navik-menu ul ul li>a, .navik-menu ul ul li:hover>a {
+	    color: #fff !important;
+	    background: transparent !important;
+	}
+	.navik-menu .dropdown-divider {
+    	border-top: 1px solid #ffffff26 !important;
+	}
+	.navik-menu ul ul li:hover>a {
+    	padding-left: 35px !important;
+	}
+	.navik-menu ul ul li:hover>a:before{
+		display:none !important;
+	}
+	.navik-header.header-shadow.viewport-lg .navik-menu ul ul li:hover>a {
+	    padding-left: 35px !important;
+	}
+}	
+
+
+
+
+.navik-header.header-shadow.viewport-lg {
+    box-shadow: 0 0 5px #e3e3e3;
+}

@@ -1,0 +1,58 @@
+.right_save,
+.right_save_continue {
+    margin-right: 3px;
+}
+
+.photo-size,
+.photo-size img {
+    object-fit: cover !important;
+}
+
+.photo-item-container.photo_drag_item.slide {
+    z-index: 100000;
+}
+
+.progress-bar {
+    position: relative;
+    height: 13px;
+    width: 350px;
+    border-radius: 50px !important;
+    border: 1px solid #333;
+    margin-top:5px;
+}
+
+/* .progress-bar {
+
+    background: linear-gradient(91deg, #e1e6e5, #121414);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 1s ease infinite;
+    -moz-animation: AnimationName 1s ease infinite;
+    animation: AnimationName 1s ease infinite;
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+} */
+
+.filler {
+    background: #1da598;
+    height: 100%;
+    border-radius: inherit;
+    transition: width 0.3s ease-in;
+}
+
+

@@ -1,0 +1,182 @@
+h2.tbk__title.kl-font-alt.fs-xs-xl.fs-l.fw-bold.white {
+  margin-top: 20px;
+  font-family: "Nunito";
+  font-size: 38px;
+  margin-bottom: 0;
+}
+
+span.media-container__text a {
+  font-family: "Nunito";
+  letter-spacing: 0.6px;
+  display: inline-block;
+}
+
+p.white.mt-2.text-center.w-100 span {
+  font-family: "Nunito";
+  letter-spacing: 0.3px;
+}
+
+.process_box4 .stp_title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 26px;
+  font-family: "Nunito";
+}
+.process_box4 {
+  display: table-cell;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  padding: 30px 46px;
+  transition: all 0.5s;
+  border: 1px solid #efefef;
+}
+
+.process_box4:hover .number:before {
+  width: 30px;
+  height: 30px;
+  margin-left: -17px;
+  margin-top: -17px;
+}
+
+.process_box4::after {
+  content: "";
+  background: #23537a73;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: -35px;
+  top: -35px;
+  border-radius: 50%;
+  box-shadow: -5px 5px 0px 0px rgba(35, 83, 122, 0.2);
+}
+.rj_head_block + .row img {
+    width: 95%;
+}
+.process_box4 h4 {
+  padding-top: 84px;
+  background-image: url(https://img.icons8.com/pastel-glyph/2x/search.png);
+  background-repeat: no-repeat;
+  background-size: 62px;
+  background-position: center top;
+}
+
+.process_box4:nth-child(3) h4 {
+  background-image: url(https://icon-library.net/images/make-appointment-icon/make-appointment-icon-1.jpg);
+  background-size: 51px;
+  background-position: center 21%;
+}
+
+.pb__line {
+  margin-top: 25px;
+}
+
+.process_box4 .content p {
+  font-family: "Nunito";
+  font-size: 16px;
+}
+.rj_head_block + .row {
+  margin-top: 50px !important;
+}
+.process_box4:nth-child(2) h4 {
+  background-image: url(https://static.thenounproject.com/png/545046-200.png);
+}
+.rj_head_block + .row + .row {
+  margin-top: 18px !important;
+  margin-bottom: 40px !important;
+}
+.rj_head_block + .row + .row p {
+  color: #efefef !important;
+  margin: 0 0 7px 0 !important;
+}
+.rj_head_block + .row + .row h2 {
+  color: #efefef !important;
+}
+.process_box4:hover {
+  box-shadow: 0px 22px 18px 1px rgba(204, 204, 204, 0.5);
+  transform: translateY(-8px);
+}
+
+section.hg_section--relative.pt-80.pb-100.mb-0 {
+  background: #f9f9f9;
+}
+section.hg_section--relative .callout-banner .col-12.col-sm-12.col-md-9 {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  background: #fff;
+}
+section.hg_section.bg-white.pt-40.pb-40
+  .kl-bottommask.kl-bottommask--shadow_simple {
+  display: none;
+}
+section.hg_section--relative .callout-banner h4.m_title {
+  font-weight: 600;
+  font-size: 36px;
+  font-family: "Nunito";
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 15px;
+}
+section.hg_section--relative .feature_section h1 {
+  font-size: 26px !important;
+  font-family: "Nunito" !important;
+  margin-bottom: 25px !important;
+  text-align: left !important;
+}
+section.hg_section--relative .rj_head_block h2 {
+  font-size: 20px;
+  font-family: "Nunito" !important;
+}
+section.hg_section--relative .rj_head_block p {
+  text-transform: uppercase;
+  font-size: 15px !important;
+  line-height: 1.7em;
+  text-align: left !important;
+  letter-spacing: 0.3px;
+}
+section.hg_section--relative .rj_head_block h2 {
+  font-size: 20px !important;
+  font-family: "Nunito" !important;
+  text-align: left !important;
+  margin: 10px 0 8px 0 !important;
+}
+section.hg_section--relative table.table td {
+  padding: 0 !important;
+  vertical-align: middle !important;
+}
+section.hg_section--relative table.table tr:first-child td {
+  color: #ffffff;
+  font-family: "Nunito" !important;
+  font-size: 19px;
+  font-weight: 600;
+  background: #00293d;
+  padding: 17px 14px !important;
+}
+section.hg_section--relative table.table td ul li span {
+  font-family: "Nunito" !important;
+  font-size: 17px;
+  color: #565656;
+}
+.rj_head_block + .row + .row {
+    background: #00293d !important;
+    padding: 20px !important;
+}
+section.hg_section--relative .rj_word_content h4 {
+  font-family: "Nunito" !important;
+  margin: 0 !important;
+}
+section.hg_section--relative .rj_word_content h5 {
+  margin: 11px 0 6px 0 !important;
+  font-size: 14px !important;
+}
+section.hg_section--relative .rj_word_content .broder_rj {
+  margin-bottom: 23px !important;
+}
+section.hg_section--relative p {
+  font-family: "Nunito" !important;
+}
+.feature_section p {
+    font-size: 17px !important;
+}
+.rj_head_block + .row + .row + .row img {
+    width: 95% !important;
+}

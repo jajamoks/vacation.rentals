@@ -1,0 +1,175 @@
+
+/*====================  HELP PAGE ================*/
+
+label.input-placeholder-group {
+    background: url(https://secure.webtoolhub.com/static/resources/icons/set110/37275f5a.png) !important;
+    background-size: 24px !important;
+    background-repeat: no-repeat !important;
+    background-position: 96% center !important;
+}
+div#left_column {
+    background-color: #fff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+#categories_block_left .block_content>ul {
+    border: none;
+}
+#categories_block_left li a {
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    padding: 0 30px 0 0px;
+    border-bottom: none;
+    font-family: "Nunito";
+    transition: all 0.3s;
+}
+#categories_block_left li span.grower {
+    background: #fff !important;
+}
+.title_block {
+    border: none !important;
+    background: none !important;
+    padding: 0 !important;
+    border-bottom: 1px solid #efefef !important;
+    padding-bottom: 8px !important;
+    margin-bottom: 14px !important;
+}
+section#informations_block_left_1 .block_content.list-block li a {
+    font-weight: 500 !important;
+    color: #333;
+    display: block;
+    font-size: 15px !important;
+    line-height: 30px;
+    padding: 0 30px 0 0px;
+    border-bottom: none;
+    font-family: "Nunito";
+    transition: all 0.3s;
+}
+section#informations_block_left_1 .block_content.list-block li {
+    padding: 0 !important;
+    border: none !important;
+}
+#categories_block_left li a.selected, #categories_block_left li a:hover, #categories_block_left li span.grower:hover+a {
+    background: #f6f6f6;
+    padding-left: 6px;
+    color: #226eab;
+}
+section#informations_block_left_1 .block_content.list-block li a:hover {
+    padding-left: 8px;
+    color: #226eab;
+}
+section#informations_block_left_1 {
+    margin-bottom: 0;
+}
+div#left_column {
+    margin-bottom: 60px;
+}
+div#faqAccordion {
+    background-color: #fff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    padding: 25px;
+    margin-left: 20px;
+}
+div#faqAccordion .panel.panel-default:last-child {
+    margin: 0 !important;
+}
+#bonfaq .panel .panel-heading {
+    background-color: #fff !important;
+}
+#bonfaq .panel {
+    box-shadow: none !important;
+    border: 1px solid #ececec !important;
+    transition: all 0.3s;
+}
+#bonfaq .panel .panel-heading h2 a {
+    font-family: "Nunito";
+    color: #222;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+}
+section#bonfaq div#faqAccordion .panel-heading.accordion-toggle{
+    background: #f9f9f9 !important;
+}
+section#bonfaq div#faqAccordion .panel-heading.accordion-toggle[aria-expanded="true"] h2 a,
+section#bonfaq div#faqAccordion .panel-heading.accordion-toggle[aria-expanded="true"] h2{
+    color: #fff;
+}
+section#bonfaq div#faqAccordion .panel-heading.accordion-toggle[aria-expanded="true"] {
+    background: #00293d !important;
+}
+/*====================  HELP PAGE ================*/
+
+
+
+/*====================  Tablate Responsive ================*/
+@media only screen and (max-width:991px){
+    #categories_block_left li a {
+        font-size: 14px !important;
+        padding: 0 20px 0 0px !important;
+    }
+    section#informations_block_left_1 .block_content.list-block li a {
+        font-size: 14px !important;
+        padding: 0 10px 0 0px !important;
+    }
+    #categories_block_left li span.grower {
+        right: -12px;
+    }
+}
+/*====================  Tablate Responsive ================*/
+
+
+
+
+/*====================  MOBILE Responsive ================*/
+@media only screen and (max-width:767px){
+    div#left_column {
+        margin-bottom: 20px !important;
+        padding: 20px 20px 2px 20px !important;
+    }
+    div#faqAccordion {
+        margin-left: 0 !important;
+        padding: 20px !important;
+    }
+    div#center_column {
+        padding: 0;
+    }
+    div#columns {
+        padding: 0 30px !important;
+    }
+    #bonfaq .panel .panel-heading h2 {
+        font-size: 17px;
+    }
+    #bonfaq .panel .panel-heading h2:after {
+        position: absolute;
+        right: -6px !important;
+        top: 14px !important;
+        content: "-";
+        font-size: 21px !important;
+    }
+    #bonfaq .panel .panel-heading {
+        padding: 0 12px !important;
+    }
+    #bonfaq .panel .panel-body {
+        padding: 13px !important;
+    }
+    #help_banner .input-contrast {
+        border-width: 0!important;
+        width: 100% !important;
+        background: #fff url(https://secure.webtoolhub.com/static/resources/icons/set110/37275f5a.png) !important;
+        background-size: 21px !important;
+        background-repeat: no-repeat !important;
+        background-position: 94% center !important;
+        border-radius: 30px !important;
+        padding: 12px 17px !important;
+        box-shadow: 0px 6px 17px 0px #222;
+    }
+    div#help_banner .back-black {
+        padding-top: 0px !important;
+        padding-bottom: 95px !important;
+    }
+}
+/*====================  MOBILE Responsive ================*/
